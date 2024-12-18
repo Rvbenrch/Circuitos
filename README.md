@@ -46,37 +46,28 @@ Para observar la respuesta del circuito, realizamos una simulación **transitori
 
 ## **Resultados obtenidos**
 ### **Gráficas**
-<details>
   <summary>Señal de entrada (tren de pulsos)</summary>
+    - Señal rectangular alternando entre 0 V y 2 V.
 
-  Señal rectangular alternando entre 0 V y 2 V.
-</details>
 
-<details>
+
   <summary>Voltaje en el nodo del condensador</summary>
-
-  Curva exponencial de carga y descarga.
-</details>
+    - Curva exponencial de carga y descarga.
 
 ### **Medición de la constante de tiempo (τ)**
 La constante de tiempo teórica se calcula como:
 
-\[
-\tau = R \cdot C
-\]
-
-<details>
-  <summary>Mostrar cálculo de la constante de tiempo</summary>
+<summary> Cálculo de la constante de tiempo</summary>
 
   ![image](https://github.com/user-attachments/assets/830084e5-0aab-44c1-9169-9c3c2d987586)
-</details>
 
 **Resultados de la simulación:**
-<details>
+
   <summary>Mostrar resultados</summary>
 
+
   ![image](https://github.com/user-attachments/assets/d5e2d401-7b42-4d86-8cd0-151fde461903)
-</details>
+
 
 ---
 
@@ -87,13 +78,13 @@ La constante de tiempo teórica se calcula como:
   <summary>Carga y descarga del condensador</summary>
 
   La ecuación del voltaje en el condensador durante la carga es:
-  \[
-  V_C(t) = V_{\text{max}} \cdot \left(1 - e^{-t / \tau}\right)
-  \]
+  
+  V_C(t) = V_{V{max}}  * (1 - e^{-t /tau}\)
+  
   La ecuación del voltaje durante la descarga es:
-  \[
-  V_C(t) = V_{\text{max}} \cdot e^{-t / \tau}
-  \]
+ 
+  V_C(t) = V{max} *  e^{-t /tau}
+
 </details>
 
 ### **2. Tipos de movimiento oscilatorio en el circuito RLC**
@@ -110,11 +101,16 @@ La constante de tiempo teórica se calcula como:
 ---
 
 ## **Circuito RLC**
-<details>
-  <summary>Mostrar imagen del circuito RLC</summary>
+
+  <summary>Calculamos la frecuencia: RLC</summary>
 
   ![image](https://github.com/user-attachments/assets/659f2ac2-1f5c-4a1b-98c6-a569c58e29da)
-</details>
+
+  Para que queremos esa frecuencia, bueno tenemos que considerar también que: 
+
+  ![image](https://github.com/user-attachments/assets/c02aa7cb-a4e3-4a63-bf41-a29c6b7bd62f)
+
+
 
 ### **Configuración del circuito**
 - **Resistencia (R1):** 1 kΩ.
@@ -129,25 +125,9 @@ La constante de tiempo teórica se calcula como:
 
 ---
 
-## **Cálculos teóricos y resultados**
 
-### **Frecuencia natural de oscilación**
-\[
-f_0 = \frac{1}{2\pi \sqrt{L \cdot C}}
-\]
 
-### **Cálculo de resistencia crítica**
-\[
-R_c = 2 \sqrt{\frac{L}{C}}
-\]
 
-### **Frecuencia amortiguada**
-\[
-f_d = f_0 \cdot \sqrt{1 - \left( \frac{R}{R_c} \right)^2}
-\]
-
-<details>
-  <summary>Mostrar resultados del cálculo</summary>
 
   - **R = 1 kΩ < R_c = 11.12 kΩ**
   - **Frecuencia amortiguada ≈ 1.295 MHz**
