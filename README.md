@@ -11,6 +11,8 @@ En esta práctica, hemos analizado el comportamiento de un **circuito RC** (Resi
 - Visualizar el comportamiento de voltaje y corriente en el circuito.
 
 ---
+## **Práctica 2** 
+
 <details>
   <summary> Circuito en RC (práctica 2 / parte 1) </summary>
   
@@ -178,10 +180,164 @@ Se cumple que cuando el condensador este descargado, se carga exponencialmente s
 
 ![image](https://github.com/user-attachments/assets/ae3870bd-16bb-4efd-85c0-2b8cc9e2d440)
 
+![image](https://github.com/user-attachments/assets/2c8b8409-2dbe-4f43-923e-be1e8a8bd048)
+
+
+</details>
+
+### Cómo verificamos que hemos realizado bien los procedimientos, vamos a ver y comprobarlo de manera teórica, tenemos que:
+
+
+![image](https://github.com/user-attachments/assets/b1dda854-7733-4cdd-a784-350b49da275e)
+
+Para confirmar que estamos en el régimen adecuado y comprobar los resultados Usamos la fórmula anterior 👆
+- 1. Si el régimen es crítico: Las raices son iguales y negativas (s1 y s2)
+- 2. Su es sobreamorticuado ( R > Rc): Entonces las raices (s1 y s2) son reales, distintas y negativas.
+- 3. Para R = 15kΩ (sobreamortiguado):
+
+![image](https://github.com/user-attachments/assets/2b77a580-f106-4324-829c-388b964fa21c)
+
+
+</details>
+---
+
+
+### Preguntas Práctica 2 (2024):
+
+<details> 
+<summary>PREGUNTAS:</summary>
+  
+<details>
+  <summary>Pregunta 1: </summary>
+  
+![image](https://github.com/user-attachments/assets/4778d3b2-d4a2-4acc-81ff-3ea99e8e4262)
+
+- Solución 1: 
+  
+![image](https://github.com/user-attachments/assets/52de9b1c-867c-4388-8c9f-d816107a214d)
+
+El polo de un sistema RC está relacionado con la inversa de la constante de tiempo (τ).
+
+</details>
+
+<details>
+<summary>Pregunta 2: </summary>
+  
+![image](https://github.com/user-attachments/assets/399b8477-74d2-4586-9727-02c9ab165903)
+
+
+<summary>Solución 2: </summary>
+Aquí nos están pidiendo la (T) que nos indicaban antes su inversa:
+
+
+  ![image](https://github.com/user-attachments/assets/795e09ee-438b-4656-8370-7693eb0de7ce)
+
+</details>
+
+
+<details>
+  <summary>Regunta 3: </summary>
+
+  ![image](https://github.com/user-attachments/assets/73283ba3-0d41-4b80-aba5-aa670c4b78ad)
+
+  - Solución:
+Al simular el circuito en LTspice, se midió la constante de tiempo directamente desde la curva exponencial de carga/descarga del condensador.
+El valor obtenido en simulación confirma que:
+La constante de tiempo teórica (220𝑛𝑠) coincide con el valor medido, lo cual valida tanto el modelo teórico como la simulación.
+  
+</details>
+
+<details>
+  <summary>Regunta 4: </summary>
+
+![image](https://github.com/user-attachments/assets/bb28b829-fcc2-4e6e-b413-d98ea10757d6)
+
+- Solución:
+
+Si miramos antes hemos configurado:
+
+
+![image](https://github.com/user-attachments/assets/738b1e29-2b35-4a94-b411-1320b263d196)
+
+(creo que este apartado lo habia configurado mal antes pero ya sabemos que tiene que ser en t period 2ms :(
+
+</details>
+
+<details>
+  <summary>Pregunta 5 , 6 y 7: </summary>
+
+  ![image](https://github.com/user-attachments/assets/48682df3-433b-4ed2-abb9-e44f914e03f2)
+
+
+
+- Solución 5:
+  
+![image](https://github.com/user-attachments/assets/1a7300c6-7781-4b07-8a4f-680e5a4c2fd8)
+
+- Solución 6:
+
+![image](https://github.com/user-attachments/assets/a722ca57-1962-46b3-81aa-3d9562e452dd)
+
+- Solución 7:
+
+![image](https://github.com/user-attachments/assets/cba890a6-fd8a-4438-be16-c5746cd977c3)
 
 </details>
 </details>
----
+
+<details>
+  <summary> Resumen de las preguntas práctica 2: </summary>
+
+  ![image](https://github.com/user-attachments/assets/567dafb4-e0de-4587-af59-21bc8a4e03b9)
+
+</details>
+
+
+# Práctica 3
+
+![image](https://github.com/user-attachments/assets/741223a3-fbe5-467d-9622-b1a89ef00e18)
+
+![image](https://github.com/user-attachments/assets/d0e9a325-1932-45f0-be92-d38bae9fe58e)
+
+
+![image](https://github.com/user-attachments/assets/b3c147f2-5dc5-48ca-bdbf-56a25f7ae29b)
+
+
+![image](https://github.com/user-attachments/assets/0464d79a-7cec-4225-851b-1531821adbb5)
+
+![image](https://github.com/user-attachments/assets/427ff4ec-c038-4492-9457-fbcd19803708)
+
+
+![image](https://github.com/user-attachments/assets/00900143-b0a4-4e1a-bd81-6b2fcb3e7fcc)
+
+![image](https://github.com/user-attachments/assets/426714a2-bc7d-4c92-8747-d1d22f63e57e)
+
+### **2.1. Estudio teórico previo:**
+
+![image](https://github.com/user-attachments/assets/1e35733a-86dd-4222-8544-960f00ce5e9b)
+
+
+![image](https://github.com/user-attachments/assets/a00e6006-f956-4494-94bc-ff177de983a9)
+
+
+
+![image](https://github.com/user-attachments/assets/7bcb33ad-2c16-41bd-ba7a-217d5b8f5452)
+
+¿ Qué signfica todo esto?
+
+DEFINICIÓN:
+- Un amplificador no inversor es un circuito operacional (Op-Amp)
+- La señal de entrada Vi, se aplica al terminal no inversor (+)
+- La ganancia es positiva, lo que significa que la saida está en fase con la entrada.
+
+Ganancia teórica: 
+
+![image](https://github.com/user-attachments/assets/2612b6ab-45b9-4f07-9c2f-31e4a2021884)
+
+La ganancia en (db) se calcula como 20 log10(H) porque es una fórmula.
+
+![image](https://github.com/user-attachments/assets/9b9a772b-7c06-486c-ab1d-189a52a9d520)
+
 
 ## **Autor**  
 - **Nombre:** Rubén M. Rodríguez Chamorro  
