@@ -72,16 +72,16 @@ Un circuito RC está compuesto por una **resistencia (R)** y un **condensador (C
 #### **Carga del condensador**
 La ecuación del voltaje en el condensador durante la carga es:
 
-[
-V_C(t) = V_{max} \cdot \left(1 - e^{-t / \tau}\right)
-]
+
+Vc(t) = V{max} * (1 - e^{-t / tau})
+
 - Donde ( tau = R * C ) es la constante de tiempo.
 
 #### **Descarga del condensador**
 La ecuación del voltaje durante la descarga es:
-[
-V_C(t) = V_{max} \cdot e^{-t / \tau}
-]
+
+Vc(t) = V{max} * e^{-t/tau}
+
 
 ### **2. Constante de Tiempo (τ)**
 La constante de tiempo determina la rapidez con la que el condensador se carga o descarga:
@@ -118,8 +118,11 @@ En este circuito RLC, se combina resistencia, Inductor y Condensador, lo que pro
   3. Sobreamortiguado:: Respuesta lenta sin oscilaciones (R grande).
 
 - **Frecuencia natural de oscilación.**
+  
 ![image](https://github.com/user-attachments/assets/659f2ac2-1f5c-4a1b-98c6-a569c58e29da)
+
 - Configuración de la simulación Ltspice.
+  
 ![image](https://github.com/user-attachments/assets/86bb4c15-a14e-418d-8873-e15de9f8606a)
 
 **¿Qué es esto de tipos de movimiento oscilatorios?**
@@ -128,18 +131,51 @@ La naturaleza de las oscilaciones depende del amortiguamiento, que está determi
 R. Hay tres tipos de respuesta en un circuito RLC:
 
 - **a) Subamortiguado**
+  
 ![image](https://github.com/user-attachments/assets/fe3c9091-8ccf-4b00-b78b-bdd56053cc8c)
 
 - **b) Amortiguamiento crítico**
+  
 ![image](https://github.com/user-attachments/assets/ba4c9533-4db2-413a-bce2-58ecd99d5c37)
 
 - **c) Sobreamortiguamiento**
-  ![image](https://github.com/user-attachments/assets/7be48677-9d03-4207-963b-854b992cd2ff)
+  
+![image](https://github.com/user-attachments/assets/7be48677-9d03-4207-963b-854b992cd2ff)
 
-Teniendo en cuenta que de manera teórica tenemos una representación de estos tres tipos de amortiguamiento que son las siguientes: 
+![image](https://github.com/user-attachments/assets/2bc22a4a-6ec7-4068-afbc-b5f88f3598be)
+
+![image](https://github.com/user-attachments/assets/01679d15-83f8-4799-9046-84f14d05e358)
+
+** Cómo lo calculamos en nuestro circuito:**
+Datos: 
+  - R = 1kΩ
+  - L = 680μH
+  - C = 22pF
+
+
+
+​![image](https://github.com/user-attachments/assets/6eea7564-838b-4c4a-8e0d-0d1694e5221e)
+
+
+![image](https://github.com/user-attachments/assets/15fdad9c-12fc-4346-851a-69a782286cc3)
+
+
+Teniendo en cuenta los cálculos teorícos de los respectivos amortiguamientos concluimos con que es subamortiguado: 
+
+El sistema actual es subamortiguado porque:
+** 𝑅=1 𝑘Ω < 𝑅𝑐 = 11.12𝑘Ω.**
+
+Las oscilaciones amortiguadas observadas en la gráfica coinciden con la teoría:
+La frecuencia amortiguada es aproximadamente 
+1.295 MHz Si aumentamos R, podremos observar los otros tipos de amortiguamiento:
+* Amortiguamiento crítico: La oscilación desaparece.
+* Sobreamortiguado: La respuesta es más lenta.
 
 ![image](https://github.com/user-attachments/assets/6b63879f-2e59-4c1c-9eac-13092e0e68cd)
 
+Sabiendo esto de arriba 👆
+
+¿A cuál corresponde con el resutlado que hemos obtenido? 👇
 
 **EL RESULTADO OBTENIDO:**
 
