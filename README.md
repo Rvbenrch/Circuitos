@@ -11,7 +11,8 @@ En esta práctica, hemos analizado el comportamiento de un **circuito RC** (Resi
 - Visualizar el comportamiento de voltaje y corriente en el circuito.
 
 ---
-
+<details>
+  <summary> Circuito en RC (práctica 2 / parte 1 </summary>
 ## **Circuito Analizado**
 <details>
   <summary>Mostrar imagen del circuito RC</summary>
@@ -72,9 +73,10 @@ La constante de tiempo teórica se calcula como:
 ![image](https://github.com/user-attachments/assets/dce83658-088c-4de3-9498-d980c46c14bb)
 
 
-**Conclusión Ciruito RC** Se cumple que cuando el condensador este descargado, se carga exponencialmente siguiendo las indicaciones anteriorores 🙏
+- **Conclusión Ciruito RC:** 
+Se cumple que cuando el condensador este descargado, se carga exponencialmente siguiendo las indicaciones anteriorores 🙏
 ---
-
+</details>
 ## **Circuito RLC**
 <details>
   <summary>Mostrar imagen del circuito RLC</summary>
