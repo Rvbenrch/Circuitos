@@ -72,14 +72,15 @@ La constante de tiempo teórica se calcula como:
 ![image](https://github.com/user-attachments/assets/dce83658-088c-4de3-9498-d980c46c14bb)
 
 
-**Conclusión Ciruito RC** Se cumple que cuando el condensador este descargado, se carga exponencialmente siguiendo las indicaciones anteriorores** 🙏
+**Conclusión Ciruito RC** Se cumple que cuando el condensador este descargado, se carga exponencialmente siguiendo las indicaciones anteriorores 🙏
 ---
 
 ## **Circuito RLC**
 <details>
   <summary>Mostrar imagen del circuito RLC</summary>
 
-  ![image](https://github.com/user-attachments/assets/659f2ac2-1f5c-4a1b-98c6-a569c58e29da)
+![image](https://github.com/user-attachments/assets/b640d003-1f43-401d-bd5c-0c83d5d39fee)
+
 </details>
 
 ### **Configuración del circuito**
