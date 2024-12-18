@@ -35,6 +35,7 @@ El circuito RC utilizado es el siguiente:
 Para observar la respuesta del circuito, realizamos una simulación **transitoria**:
 - **Stop time:** 20 ms.
 - **Maximum Timestep:** 0.1 ms.
+![image](https://github.com/user-attachments/assets/981ea8d7-9f96-4b87-8297-44e03e2b17b7)
 
 ---
 
@@ -58,6 +59,9 @@ La constante de tiempo teórica se calcula como:
 
 **Resultados de la simulación:**
 - La curva medida en LTspice confirma que el tiempo para alcanzar el **63%** del valor final (1.26 V) corresponde aproximadamente a **220 ns**.
+
+  ![image](https://github.com/user-attachments/assets/d5e2d401-7b42-4d86-8cd0-151fde461903)
+
 
 ---
 
