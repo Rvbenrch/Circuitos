@@ -47,7 +47,7 @@ Para observar la respuesta del circuito, realizamos una simulación **transitori
    - Curva exponencial de carga y descarga.
 
 ### **Observaciones:**
-- Durante el nivel alto del pulso (\( V = 2V \)), el condensador se **carga exponencialmente**.
+- Durante el nivel alto del pulso (V = 2V), el condensador se **carga exponencialmente**.
 - Cuando la señal vuelve a 0 V, el condensador se **descarga exponencialmente**.
 
 ### **Medición de la constante de tiempo (τ):**
@@ -71,20 +71,21 @@ Un circuito RC está compuesto por una **resistencia (R)** y un **condensador (C
 
 #### **Carga del condensador**
 La ecuación del voltaje en el condensador durante la carga es:
-\[
+
+[
 V_C(t) = V_{max} \cdot \left(1 - e^{-t / \tau}\right)
-\]
-- Donde \( \tau = R \cdot C \) es la constante de tiempo.
+]
+- Donde ( tau = R * C ) es la constante de tiempo.
 
 #### **Descarga del condensador**
 La ecuación del voltaje durante la descarga es:
-\[
+[
 V_C(t) = V_{max} \cdot e^{-t / \tau}
-\]
+]
 
 ### **2. Constante de Tiempo (τ)**
 La constante de tiempo determina la rapidez con la que el condensador se carga o descarga:
-- A \( t = \tau \), el voltaje en el condensador alcanza el **63% del valor final** durante la carga.
+- A (t = tau), el voltaje en el condensador alcanza el **63% del valor final** durante la carga.
 - En la descarga, el voltaje cae al **37% del valor inicial**.
 
 ### **3. Respuesta transitoria**
@@ -101,10 +102,51 @@ La respuesta transitoria describe el comportamiento del circuito cuando se aplic
 
 ---
 
-## **Próximos pasos**
-En la siguiente parte de la práctica, analizaremos un **circuito RLC** para estudiar su comportamiento oscilatorio y su respuesta transitoria.
+## **Circuito RLC**
+ **circuito RLC** para estudiar su comportamiento oscilatorio y su respuesta transitoria.
+* Circuito RLC Serie
+- Resistencia (R1): 1kΩ.
+- Inductor (L1): 680μH.
+- Condensador (C1): 𝐹22pF.
+Generador de pulsos (V1): Tren de pulsos como en el caso anterior
+
+// 
+**Comportamiento esperado.**
+En este circuito RLC, se combina resistencia, Inductor y Condensador, lo que produce un movimiento oscilatorio amortiguado. Dependiendo del valor de la resistencia, el circuito puede clasificarse como: 
+- 1. Subamortiguado: Oscilaciones amortiguadas (R pequeña)
+  2. Criticamente amortiguado: Respuesta más rápida sin oscilaciones (R óptima).
+  3. Sobreamortiguado:: Respuesta lenta sin oscilaciones (R grande).
+
+- **Frecuencia natural de oscilación.**
+![image](https://github.com/user-attachments/assets/659f2ac2-1f5c-4a1b-98c6-a569c58e29da)
+- Configuración de la simulación Ltspice.
+![image](https://github.com/user-attachments/assets/86bb4c15-a14e-418d-8873-e15de9f8606a)
+
+**¿Qué es esto de tipos de movimiento oscilatorios?**
+Tipos de Movimiento Oscilatorio
+La naturaleza de las oscilaciones depende del amortiguamiento, que está determinado por la resistencia 
+R. Hay tres tipos de respuesta en un circuito RLC:
+
+- **a) Subamortiguado**
+![image](https://github.com/user-attachments/assets/fe3c9091-8ccf-4b00-b78b-bdd56053cc8c)
+
+- **b) Amortiguamiento crítico**
+![image](https://github.com/user-attachments/assets/ba4c9533-4db2-413a-bce2-58ecd99d5c37)
+
+- **c) Sobreamortiguamiento**
+  ![image](https://github.com/user-attachments/assets/7be48677-9d03-4207-963b-854b992cd2ff)
+
+Teniendo en cuenta que de manera teórica tenemos una representación de estos tres tipos de amortiguamiento que son las siguientes: 
+
+![image](https://github.com/user-attachments/assets/6b63879f-2e59-4c1c-9eac-13092e0e68cd)
+
+
+**EL RESULTADO OBTENIDO:**
+
+![image](https://github.com/user-attachments/assets/b45dabe1-a9bc-4ba5-aac5-d5e8312c01d7)
 
 ---
+
 
 **Autor:** *(Rubén M. Rodríguez Chamorro)*  
 **Fecha:** *(18/12/2024)*  
