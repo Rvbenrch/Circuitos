@@ -12,10 +12,9 @@ En esta práctica, hemos analizado el comportamiento de un **circuito RC** (Resi
 
 ---
 <details>
-  <summary> Circuito en RC (práctica 2 / parte 1 </summary>
+  <summary> Circuito en RC (práctica 2 / parte 1) </summary>
   
-<details>
-  
+
 ![image](https://github.com/user-attachments/assets/9a1ba785-75ef-40f7-bd74-4663a22e2346)
 
 
@@ -80,52 +79,49 @@ Se cumple que cuando el condensador este descargado, se carga exponencialmente s
 
 
 <details>
-  <summary>##### **Circuito RLC** ##### </summary>
+  <summary> Circuito RLC (práctica 2 / parte 2) </summary>
+  
+
 <details>
-  <summary>Mostrar imagen del circuito RLC</summary>
+  <summary> La R tiene un valor R = 1k. </summary>
+
+  
+<summary>Imagen del circuito RLC: </summary>
 
 ![image](https://github.com/user-attachments/assets/b640d003-1f43-401d-bd5c-0c83d5d39fee)
 
-</details>
 
-### **Configuración del circuito**
+
+<summary> Configuración del circuito: </summary>
+
 - **Resistencia (R1):** 1 kΩ.
 - **Inductor (L1):** 680 μH.
 - **Condensador (C1):** 22 pF.
 
-<details>
-  <summary>Mostrar configuración de simulación</summary>
+<summary>Configuración de simulación</summary>
 
-  ![image](https://github.com/user-attachments/assets/86bb4c15-a14e-418d-8873-e15de9f8606a)
-</details>
+![image](https://github.com/user-attachments/assets/86bb4c15-a14e-418d-8873-e15de9f8606a)
 
----
 
-## **Cálculos teóricos y resultados**
 
-### **Frecuencia natural de oscilación**
-\[
-f_0 = \frac{1}{2\pi \sqrt{L \cdot C}}
-\]
+<summary>Cálculos teóricos y resultados: </summary>
 
-### **Cálculo de resistencia crítica**
-\[
-R_c = 2 \sqrt{\frac{L}{C}}
-\]
+![image](https://github.com/user-attachments/assets/709c3e78-952d-46c3-aa02-6444abcf4e36)
 
-### **Frecuencia amortiguada**
-\[
-f_d = f_0 \cdot \sqrt{1 - \left( \frac{R}{R_c} \right)^2}
-\]
 
-<details>
-  <summary>Mostrar resultados del cálculo</summary>
 
-  - **R = 1 kΩ < R_c = 11.12 kΩ**
-  - **Frecuencia amortiguada ≈ 1.295 MHz**
+<summary>Mostrar resultados del cálculo</summary>
 
-  ![image](https://github.com/user-attachments/assets/6b63879f-2e59-4c1c-9eac-13092e0e68cd)
-</details>
+- R = 1 kΩ < R_c = 11.12 kΩ**
+-  **Frecuencia amortiguada ≈ 1.295 MHz**
+  
+![image](https://github.com/user-attachments/assets/0a2abaeb-87f2-48ae-9dee-258010973f66)
+
+![image](https://github.com/user-attachments/assets/5c7b921f-b7b2-43f2-926c-a27139fc029e)
+
+![image](https://github.com/user-attachments/assets/6b63879f-2e59-4c1c-9eac-13092e0e68cd)
+
+
 
 ---
 
@@ -140,6 +136,50 @@ f_d = f_0 \cdot \sqrt{1 - \left( \frac{R}{R_c} \right)^2}
   ![image](https://github.com/user-attachments/assets/b45dabe1-a9bc-4ba5-aac5-d5e8312c01d7)
 </details>
 
+![image](https://github.com/user-attachments/assets/8821ae98-a6e3-411f-9618-5dfef0aee27f)
+
+</details>
+
+<details>
+  <summary>Valor de K = 15kΩ: </summary>
+
+### Circuito: 
+
+![image](https://github.com/user-attachments/assets/6d68025c-0719-4a2d-a083-f39c9ed68f47)
+
+-  Comportamiento de sobreamortiguado:
+  
+![image](https://github.com/user-attachments/assets/3e3c8068-868d-4a52-87ff-e85dda63bd0f)
+
+- Explicación teórica:
+
+![image](https://github.com/user-attachments/assets/b29a0e03-a9cd-4b07-855a-1dce70e90684)
+
+
+![image](https://github.com/user-attachments/assets/33c1f200-5075-47c4-ac72-9845f0cb7f48)
+
+
+- Resultado de la gráfica:
+
+![image](https://github.com/user-attachments/assets/7e6333df-9e07-4d89-bd7c-54fe5ca7ae39)
+
+- Conclusiones:
+
+![image](https://github.com/user-attachments/assets/17457d07-995a-49e9-90fc-d511bf907a12)
+
+
+
+</details>
+
+<details> 
+<summary> k = 11.12k  </summary> 
+
+![image](https://github.com/user-attachments/assets/d25f21f7-8485-47d3-a1df-e8113bdb4f17)
+
+![image](https://github.com/user-attachments/assets/ae3870bd-16bb-4efd-85c0-2b8cc9e2d440)
+
+
+</details>
 </details>
 ---
 
