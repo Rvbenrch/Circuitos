@@ -53,9 +53,8 @@ Para observar la respuesta del circuito, realizamos una simulación **transitori
 ### **Medición de la constante de tiempo (τ):**
 La constante de tiempo teórica se calcula como:
 
-\[
-\tau = R \cdot C = 10 \text{k}\Omega \cdot 22 \text{pF} = 220 \text{ ns}.
-\]
+![image](https://github.com/user-attachments/assets/830084e5-0aab-44c1-9169-9c3c2d987586)
+
 
 **Resultados de la simulación:**
 - La curva medida en LTspice confirma que el tiempo para alcanzar el **63%** del valor final (1.26 V) corresponde aproximadamente a **220 ns**.
