@@ -45,31 +45,16 @@ Para observar la respuesta del circuito, realizamos una simulación **transitori
 ---
 
 ## **Resultados obtenidos**
-### **Gráficas**
-<details>
-  <summary>Señal de entrada (tren de pulsos)</summary>
 
-  Señal rectangular alternando entre 0 V y 2 V.
-</details>
-
-<details>
-  <summary>Voltaje en el nodo del condensador</summary>
-
-  Curva exponencial de carga y descarga.
-</details>
 
 ### **Medición de la constante de tiempo (τ)**
 La constante de tiempo teórica se calcula como:
 
-\[
-\tau = R \cdot C
-\]
 
-<details>
-  <summary>Mostrar cálculo de la constante de tiempo</summary>
+  <summary>Cálculo de la constante de tiempo</summary>
 
   ![image](https://github.com/user-attachments/assets/830084e5-0aab-44c1-9169-9c3c2d987586)
-</details>
+
 
 **Resultados de la simulación:**
 <details>
@@ -83,30 +68,11 @@ La constante de tiempo teórica se calcula como:
 ## **Conceptos Teóricos**
 
 ### **1. Circuito RC**
-<details>
-  <summary>Carga y descarga del condensador</summary>
 
-  La ecuación del voltaje en el condensador durante la carga es:
-  \[
-  V_C(t) = V_{\text{max}} \cdot \left(1 - e^{-t / \tau}\right)
-  \]
-  La ecuación del voltaje durante la descarga es:
-  \[
-  V_C(t) = V_{\text{max}} \cdot e^{-t / \tau}
-  \]
-</details>
+![image](https://github.com/user-attachments/assets/dce83658-088c-4de3-9498-d980c46c14bb)
 
-### **2. Tipos de movimiento oscilatorio en el circuito RLC**
-<details>
-  <summary>Ver tipos de amortiguamiento</summary>
 
-  | Tipo de amortiguamiento    | Condición             | Comportamiento             |
-  |----------------------------|-----------------------|----------------------------|
-  | **Subamortiguado**         | \( R < R_c \)         | Oscilaciones amortiguadas  |
-  | **Críticamente amortiguado** | \( R = R_c \)       | Respuesta óptima sin oscilaciones |
-  | **Sobreamortiguado**       | \( R > R_c \)         | Respuesta lenta            |
-</details>
-
+**Conclusión Ciruito RC** Se cumple que cuando el condensador este descargado, se carga exponencialmente siguiendo las indicaciones anteriorores** 🙏
 ---
 
 ## **Circuito RLC**
