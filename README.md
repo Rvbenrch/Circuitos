@@ -12,13 +12,12 @@ En esta práctica, hemos analizado el comportamiento de un **circuito RC** (Resi
 
 ---
 <details>
-  <summary>#####Circuito en RC (práctica 2 / parte 1 ######</summary>
-## **Circuito Analizado**
+  <summary> Circuito en RC (práctica 2 / parte 1 </summary>
+  
 <details>
-  <summary>Mostrar imagen del circuito RC</summary>
+  
+![image](https://github.com/user-attachments/assets/9a1ba785-75ef-40f7-bd74-4663a22e2346)
 
-  ![image](https://github.com/user-attachments/assets/9a1ba785-75ef-40f7-bd74-4663a22e2346)
-</details>
 
 - **R1 (Resistencia):** 10 kΩ.
 - **C1 (Condensador):** 22 pF.
