@@ -338,6 +338,112 @@ La ganancia en (db) se calcula como 20 log10(H) porque es una fórmula.
 
 ![image](https://github.com/user-attachments/assets/9b9a772b-7c06-486c-ab1d-189a52a9d520)
 
+---
+
+## Preguntas teóricas
+
+![image](https://github.com/user-attachments/assets/724c3000-e046-45f4-9f4d-b623381d7410)
+
+<details>
+
+<summary>Solución: </summary>
+
+![image](https://github.com/user-attachments/assets/8d7d6222-8b3b-4f16-8ed1-d0e431ccab15)
+
+![image](https://github.com/user-attachments/assets/e346e3d4-c76f-405e-a973-b90c8e384986)
+
+</details>
+
+--- 
+
+### Explicación: 
+
+![image](https://github.com/user-attachments/assets/4fd87212-2057-4c5f-a3cf-5bfe7d57ca02)
+
+![image](https://github.com/user-attachments/assets/d9de81d8-53e7-456e-adda-52f1910a5497)
+
+---
+
+### Preguntas 4
+
+![image](https://github.com/user-attachments/assets/ae3d9c5e-d5b0-4652-8fec-1d7d31bfba04)
+
+![image](https://github.com/user-attachments/assets/b09a0f22-cfed-4669-a728-e15f7e21c570)
+
+### Pregunta 6
+
+Cambiamos de lado el amplificador (modo espejo).
+
+
+
+![image](https://github.com/user-attachments/assets/f4bfb697-af1c-4831-9da1-83cbe79dea21)
+
+
+![image](https://github.com/user-attachments/assets/005a8142-a21c-4ca8-9b42-0b6adcffbb87)
+
+<details>
+  <summary>Apartado práctico: </summary>
+
+![image](https://github.com/user-attachments/assets/b137d891-8f98-45e5-95da-e0020253f6da)
+
+![image](https://github.com/user-attachments/assets/149d4d27-34b0-4070-a60d-285673064d84)
+
+![image](https://github.com/user-attachments/assets/ec76a74e-5d51-4575-a90e-3f069d37b5f9)
+
+--- 
+
+</details>
+
+<details>
+  <summary>Posibles preguntas: </summary>
+  
+  ###  Pregunta 1:
+  
+  ![image](https://github.com/user-attachments/assets/0fe5eb75-6c9a-4f1c-9bab-4e151908f992)
+
+  ### Pregunta 2: 
+
+  ![image](https://github.com/user-attachments/assets/8a7a3f46-cd03-4cbb-96ff-36981028bdec)
+
+  ### Pregunta 3: 
+  
+  ![image](https://github.com/user-attachments/assets/ef823394-e949-4a9c-947a-982c8ee74763)
+
+
+  ### Pregunta 4: 
+
+  ![image](https://github.com/user-attachments/assets/2bb7b7e7-fb03-43d1-9b7e-b23a87373ea8)
+
+</details>
+
+<details>
+
+  <summary>Preguntas generales sobre la práctica: </summary>
+
+  ### Pregunta 1: 
+
+  ![image](https://github.com/user-attachments/assets/2bc5c2b7-4904-401a-acec-4981a2489a94)
+
+  ### Pregunta 2: 
+
+  ![image](https://github.com/user-attachments/assets/8407c6c6-0f65-4819-a511-27e4541e46b2)
+
+  ### Pregunta 3: 
+
+  ![image](https://github.com/user-attachments/assets/eea043c6-7b9e-4cb2-89bd-5b2f2e0202bc)
+
+  ### Pregunta 4: 
+  
+  ![image](https://github.com/user-attachments/assets/083b2a36-23b2-4c71-8977-60ed36e898b5)
+
+  ### Pregunta 5: 
+
+  ![image](https://github.com/user-attachments/assets/d095f6ff-b5b2-4682-9a14-d451c1e2626a)
+
+
+
+</details>
+
 
 ## **Autor**  
 - **Nombre:** Rubén M. Rodríguez Chamorro  
